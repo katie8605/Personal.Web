@@ -1,0 +1,1630 @@
+body {
+   background-color: white;
+   font-family: 'Sarabun', sans-serif;
+}
+
+.d{
+    text-transform: lowercase;
+    font-size: 3em;
+    margin-bottom: -68px;
+    font-weight: 400;
+}
+
+.last{
+    text-transform: uppercase;
+    font-size: 3.5em;
+    margin-top: -64px;
+    margin-left: 209px;
+    font-weight: 200;
+}
+
+.first {
+    text-transform: uppercase;
+    font-size: 5.5em;
+}
+
+h2{
+    background-color: palevioletred;
+    margin-top: -173px;
+    z-index: 100;
+    width: 220px;
+    position: relative;
+    color: white;
+    padding: 0.8%;
+    font-size: 0.9em;
+    margin-bottom: 40px;
+    font-weight: 300;
+    margin-left: 90px;
+    text-transform: uppercase;
+}
+
+.about{
+    margin-left: 10%;
+    float:left;
+    width: 40%; 
+}
+
+.about-para{
+    width: 450px;
+    font-size: 0.85em;
+}
+
+#top, #bottom, #left, #right {
+	background:  palevioletred;
+	position: fixed;
+    z-index: 4;
+}
+
+#left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+}
+
+#left { 
+    left: 0; 
+}
+
+#right { 
+    right: 0; 
+}
+		
+#top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+}
+
+#top { 
+    top: 0; 
+}
+
+#bottom { 
+    bottom: 0; 
+}
+
+.themed-color {
+    color: palevioletred;
+
+}
+
+.skillList li {
+    display: inline-block;
+    background: b;
+    padding: 5.3% 0.1%;
+    width: 120px;
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: -0.2%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: -0.7%;
+    color:white;   
+}
+
+i{
+    font-size: 1.5em;
+}
+
+.skillList {
+    text-align: center;
+    background-color: palevioletred;
+    padding: 6% 0;
+}
+
+.skillList li:hover {
+    color: white;
+    background-color: black;
+}
+
+#skills {
+    float: left;
+    width: 42%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+
+.subheadline {
+    text-transform: uppercase;
+    color: palevioletred;
+    margin-bottom: -32px;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.pojects{
+    clear: both;
+}
+
+.layer {
+    width: 70%;
+    background-color: rgb(220,220,220);
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-bottom: 5px solid;
+    border-bottom-color: palevioletred;
+    padding:1%;
+    height: 500px;
+}
+
+.imageStyle {
+    width: 700px;
+    height: 390px;
+}
+
+h4{
+    text-transform: uppercase;
+    color: rgb(220,220,220);
+    margin-top: -53px;
+    font-size: 2em;
+    font-weight: 800;
+    margin-left: -20px; 
+}
+
+.left {
+    float: right;
+    width: 40%;
+    padding-right: 2%; 
+}
+
+.left p:first-child{
+    font-size: 2em;
+    color: palevioletred;
+}
+
+.left a {
+    font-size: 0.8em;
+    margin-right: 20px;
+}
+
+.left i {
+    font-size: 2em;
+    margin-right: 1%;
+}
+
+.left p i {
+    font-size: 0.4em;
+}
+
+.project {
+    float: left;
+    text-transform: uppercase;
+    font-size: 4em;
+    margin-left: 40.5%;
+    width: 20%;
+    margin-bottom: 7%;
+}
+
+.proj {
+    margin-top: -21%;
+    margin-left: 13px;
+    font-weight: 100;
+}
+
+.pro {
+    font-size: 4em;
+ 
+}
+
+.sub {
+    margin-top: 14%;
+    margin-left: -340px;
+    float: left;
+    background-color: palevioletred;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0.4%;
+    font-size: 0.9em;
+    width: 480px;
+    font-weight: 300;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    margin-left: 0.5%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer i {
+    font-size: 1.3em;
+}
+
+nav a {
+    margin-right: 2%;
+}
+
+.nav-bar:after, a:after  {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 1;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: palevioletred;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-bar:hover:after, a:hover:after{ 
+    width: 100%; 
+    left: 0; 
+}
+
+nav a{
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+a {
+    position: relative;
+}
+
+nav {
+    background-color: white;
+    padding: 1% 1%;
+    z-index: 1;
+    text-align: center;
+    position: fixed;
+    width:  100%;
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+.parallax {
+    clear: both;
+  /* The image used */
+  background-image: url(images/meiying-ng-581604-unsplash.jpg);
+  /* Set a specific height */
+  min-height: 300px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-home { 
+      clear: both;
+  /* The image used */
+  background-image: url(images/meiying-ng-581604-unsplash.jpg);
+  /* Set a specific height */
+  min-height: 1100px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.front {
+    text-align: center;
+    font-size: 17em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    padding-top: 300px;
+}
+
+.front-name {
+    background-color: palevioletred;
+    width: 10%;
+    padding: 0.5%;
+    color: white;
+    margin-left: 65%;
+    margin-top: -160px;
+    z-index: 7;
+    position: relative;
+    opacity: 0;
+}
+
+.visible {
+  visibility: visible;  /* the button becomes visible */
+  opacity: 1;
+}
+
+.top a{
+    color: white;
+    margin-right: 2%;
+    font-size: 1.2em;
+}
+
+.top a:hover {
+    color: palevioletred;
+}
+
+.front-p a {
+    position: relative;
+}
+
+.active {
+    color:palevioletred;
+    border-bottom:3px solid palevioletred;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.logo {
+    float: left;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.hideme{
+    opacity:0;
+}
+
+.fade {
+    display: none;
+}
+
+.scroll {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.85em;
+    color: white;
+}
+
+.parallax .scroll {
+    padding: 150px;
+}
+
+.credit {
+    font-size: 0.7em;
+}
+
+
+/*other devices--------------------------------*/
+
+@media only screen and (max-width: 400px) {
+.front {
+    font-size: 4.4em;
+} 
+
+.d{
+    font-size: 0.9em;
+    margin-bottom: -30px;
+    margin-left: 4px;
+}
+
+.last{
+    font-size: 1.6em;
+    margin-top: -30px;
+    margin-left: 78px;
+}
+
+.first {
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
+h2{   
+    margin-top: -100px;
+    width: 130px;
+    font-size: 0.6em;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+.about{
+    clear: both;
+    width: 90%; 
+}
+
+.about-para{  
+   width: 250px;
+}
+
+#top, #bottom, #left, #right {
+	background:  palevioletred;
+	position: fixed;
+    z-index: 4;
+}
+    
+#left, #right {
+    top: 0; bottom: 0;
+    width: 8px;
+}
+    
+#left { left: 0; }
+    
+#right { right: 0; }
+    
+#top, #bottom {
+    left: 0; right: 0;
+    height: 8px;
+}
+    
+#top { top: 0; }
+		
+#bottom { bottom: 0; }
+
+.themed-color {
+    color: palevioletred;
+}
+
+.skillList li {
+    padding: 9% 5%;
+    width: 22px;
+    font-size: 0.55em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+  .skillList li i {
+   font-size: 2em;
+}   
+
+i{
+    font-size: 1.5em;
+}
+
+.skillList {
+    display: inline-block;
+    width: 270px;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.skillList li:hover {
+    color: white;
+    background-color: black;
+}
+
+#skills {
+    clear: both;
+    margin-left: 6%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    margin: 0 au
+}
+
+.subheadline {
+    margin-bottom: -25px;
+    font-size: 1.5em;
+}
+
+.layer {
+    width: 80%;
+    margin-bottom: 25%;
+    padding:5%;
+    height: 570px;
+}
+
+.imageStyle {
+    width: 245px;
+    height: 140px;
+}
+
+h4{
+    margin-top: -40px;
+    font-size: 1.4em;
+    margin-left: -17px;
+}
+
+.left {
+   clear: both;
+    width: 100%;
+    padding-right: 0%;
+}
+
+.left p:first-child{
+    font-size: 1.8em;
+}
+
+.project {
+    font-size: 2em;
+    margin-left: 20%;
+    width: 40%;
+    margin-bottom: 7%;
+}
+
+.proj {
+    margin-top: -30%;
+    margin-left: 5px;
+}
+
+.pro {
+    font-size: 4em;
+}
+
+.sub {
+    margin-top: -34%;
+    margin-left: 20px;
+    margin-bottom: 40%;
+    font-size: 0.6em;
+    width: 200px;
+}
+
+footer a {
+margin-left: 6%;
+}
+
+nav a{
+    font-size: 0.8em; 
+}
+
+.visible {
+  visibility: visible;  /* the button becomes visible */
+  opacity: 1;
+}
+    
+.active { 
+    color:palevioletred;
+    border-bottom:3px solid palevioletred;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+
+.hideme{
+    opacity:0;
+}
+
+.fade {
+    display: none;
+}
+
+.scroll {
+    margin-top: 20px;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.parallax .scroll {
+    width: 200px;
+    padding: 0px;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.credit {
+    font-size: 0.7em;
+}
+    
+}
+
+@media only screen and (min-width: 401px) and (max-width: 499px)  {  
+.front {
+    font-size: 6.4em;
+}
+  
+.d{
+    font-size: 01.5em;
+    margin-bottom: -40px;
+    margin-left: 4px;
+}
+
+.last{
+    font-size: 2.3em;
+    margin-top: -40px;
+    margin-left: 102px;
+}
+
+.first {
+    text-transform: uppercase;
+    font-size: 3.2em;
+}
+
+h2{   
+    margin-top: -142px;
+    width: 230px;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+.about{
+    clear: both;
+    width: 90%;  
+}
+
+.about-para{  
+   width: 290px;
+}
+
+#top, #bottom, #left, #right {
+	background:  palevioletred;
+	position: fixed;
+    z-index: 4;
+}
+#left, #right {
+    top: 0; bottom: 0;
+    width: 8px;
+}
+    
+#left { left: 0; }
+    
+#right { right: 0; }
+		
+#top, #bottom {
+    left: 0; 
+    right: 0;
+    height: 8px;
+}
+    
+#top { top: 0; }
+    
+#bottom { bottom: 0; }
+
+.themed-color {
+    color: palevioletred;
+}
+
+.skillList li {
+    padding: 9% 5%;
+    width: 22px;
+    font-size: 0.55em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+  .skillList li i {
+   font-size: 2.6em;
+}
+        
+i{
+    font-size: 1.5em;
+}
+
+.skillList {
+    width: 320px;
+}
+
+#skills {
+    clear: both;
+    margin-left: 6%;
+    margin-bottom: 15%;
+    margin-top: 10%;  
+}
+
+.subheadline {
+    margin-bottom: -25px;
+    font-size: 1.5em;
+}
+
+.layer {
+    width: 80%;
+    margin-bottom: 11%;
+    padding:5%;
+    height: 570px;
+}
+
+.imageStyle {
+    width: 300px;
+    height: 170px;
+}
+
+h4{
+    margin-top: -50px;
+    font-size: 1.6em; 
+    margin-left: -25px;
+}
+
+.left {
+    clear: both;
+    width: 100%;
+    padding-right: 0%;
+}
+
+.left p:first-child{
+    font-size: 1.8em;
+}
+
+.project {
+    font-size: 2em;
+    margin-left: 12%;
+    width: 40%;
+    margin-bottom: 7%;
+}
+
+.proj {
+    margin-top: -30%;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.pro {
+    font-size: 6em;
+}
+
+.sub {
+    margin-top: -30%;
+    margin-left: 85px;
+    margin-bottom: 40%;
+    font-size: 0.6em;
+    width: 200px;
+}
+
+footer a {
+    margin-left: 6%;
+}
+
+
+nav a{
+    font-size: 0.8em; 
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+    
+.active { 
+    color:palevioletred;
+    border-bottom:3px solid palevioletred;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.hideme{
+    opacity:0;
+}
+
+.fade {
+    display: none;
+}
+
+.scroll {
+    margin-top: 20px;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.parallax .scroll {
+    width: 200px;
+    padding: 0px;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.credit {
+    font-size: 0.7em;
+}   
+    
+}
+
+@media only screen and (min-width: 500px) and (max-width: 609px)  {
+.front {
+    font-size: 8em;
+} 
+
+.d{
+    font-size: 2em;
+    margin-bottom: -53px;
+    margin-left: 3.9px;
+}
+
+.last{
+    font-size: 3em;
+    margin-top: -55px;
+    margin-left: 136px;
+}
+
+.first {
+    text-transform: uppercase;
+    font-size: 4.2em;
+}
+
+h2{   
+    margin-top: -190px;
+    width: 230px;
+    font-size: 0.9em;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.about{
+    clear: both;
+    width: 90%;
+}
+
+.about-para{  
+    width: 390px;
+    margin-left: 1%;
+}
+    
+.skillList li {
+    padding: 8% 4%;
+    width: 38px;
+    font-size: 0.6em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+.skillList li i {
+   font-size: 2.6em;
+}
+    
+.skillList {
+    width: 400px; 
+}
+
+#skills {
+    clear: both;
+    margin-left: 6%;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+
+.subheadline {
+    margin-bottom: -32px;
+    font-size: 2.1em;
+}  
+  
+.project {
+    font-size: 3.4em;
+    margin-left: 20%;
+    width: 40%;
+    margin-bottom: 7%;
+}
+
+.pro {
+    font-size: 4em;
+}  
+    
+.sub {
+    margin-top: -30%;
+    margin-left: 10%;
+    margin-bottom: 30%;
+    font-size: 0.8em;
+    width: 400px;
+}
+       
+.proj {
+    margin-top: -30%;
+}    
+       
+.layer {
+    width: 80%;
+    height: 680px;
+    margin-bottom: 8%;
+
+}    
+    
+.left {
+    clear: both;
+    width: 95%;
+}
+
+.imageStyle {
+    width: 355px;
+    height: 205px;
+    margin-left: 4%;
+}
+    
+h4{
+    margin-top: -39px;
+    font-size: 2em;
+    margin-left: -6px; 
+}
+        
+}
+
+@media only screen and (min-width: 600px) and (max-width: 709px)  {
+.front {
+    font-size: 8.4em;
+}
+  
+.d{
+    font-size: 2.5em;
+    margin-bottom: -65px;
+    margin-left: 3.9px;
+}
+
+.last{
+    font-size: 3.3em;
+    margin-top: -65px;
+    margin-left: 198px;
+}
+
+.first {
+    text-transform: uppercase;
+    font-size: 5.2em;
+}
+
+
+h2{   
+    margin-top: -190px;
+    width: 230px;
+    font-size: 0.9em;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.about{
+    clear: both;
+    width: 90%;  
+}
+
+.about-para{  
+   width: 490px;
+    margin-left: 1%;
+}
+
+.skillList li {
+    padding: 9% 5%;
+    width: 38px;
+    font-size: 0.6em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+.skillList li i {
+   font-size: 3.6em;
+}
+
+.skillList {
+    width: 500px;  
+}
+
+#skills {
+    clear: both;
+    margin-left: 6%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+
+.subheadline {
+    margin-bottom: -32px;
+    font-size: 2.1em;
+}
+ 
+.project {
+    font-size: 4em;
+    margin-left: 20%;
+    width: 40%;
+    margin-bottom: 7%;
+}
+
+.pro {
+    font-size: 4em;
+}  
+    
+ .sub {
+    margin-top: -28%;
+    margin-left: 20%;
+    margin-bottom: 30%;
+    font-size: 0.8em;
+    width: 400px;
+}
+      
+.layer {
+    width: 80%;
+    height: 680px;
+    margin-bottom: 8%;
+}    
+    
+.left {
+    clear: both;
+    width: 95%;
+}
+
+.imageStyle {
+    width: 430px;
+    height: 270px;
+    margin-left: 4%;
+}
+    
+h4{
+    margin-top: -42px;
+    font-size: 2em;
+    margin-left: -10px;   
+}
+        
+}
+
+@media only screen and (min-width: 710px) and (max-width: 877px)  {
+.front {
+    font-size: 11.4em;
+}
+  
+.d{
+    font-size: 2.5em;
+    margin-bottom: -65px;
+    margin-left: 3.9px;
+}
+
+.last{
+    font-size: 3.3em;
+    margin-top: -65px;
+    margin-left: 198px;
+}
+
+.first {
+    text-transform: uppercase;
+    font-size: 5.2em;
+}
+
+
+h2{   
+    margin-top: -190px;
+    width: 230px;
+    font-size: 0.9em;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.about{
+    clear: both;
+    width: 90%;
+}
+
+.about-para{  
+    width: 490px;
+    margin-left: 1%;
+}
+
+.skillList li {
+    padding: 9% 5%;
+    width: 38px;
+    font-size: 0.6em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+.skillList li i {
+   font-size: 3.6em;
+}
+    
+.skillList {
+    width: 600px;
+}
+
+#skills {
+    clear: both;
+    margin-left: 6%;
+    margin-bottom: 15%;
+    margin-top: 10%; 
+}
+
+.subheadline {
+    margin-bottom: -32px;
+    font-size: 2.1em;
+}
+ 
+.project {
+    font-size: 4em;
+    margin-left: 20%;
+    width: 40%;
+    margin-bottom: 7%;
+}
+
+.pro {
+    font-size: 4em;
+}  
+    
+.sub {
+    margin-top: -28%;
+    margin-left: 160px;
+    margin-bottom: 30%;
+    font-size: 0.8em;
+    width: 400px;
+}
+     
+.layer {
+    width: 80%;
+    height: 680px;
+    margin-bottom: 8%;
+}    
+
+.left {
+    clear: both;
+    width: 95%;
+}
+
+.imageStyle {
+    width: 500px;
+    height: 270px;
+    margin-left: 4%;
+}
+    
+h4{
+    margin-top: -42px;
+    font-size: 2em;
+    margin-left: -10px;
+}
+        
+}
+
+@media only screen and (min-width: 878px) and (max-width: 967px)  {
+
+.layer {
+    width: 80%;
+    height: 770px;
+    margin-bottom: 8%;
+
+}    
+
+.left {
+    clear: both;
+    width: 95%;
+}
+
+.imageStyle {
+    width: 600px;
+    height: 370px;
+    margin-left: 6%;
+}
+    
+.front {
+    font-size: 12.8em;
+}
+  
+
+.d{
+    font-size: 3.1em;
+    margin-bottom: -65px;
+    margin-left: 4.8px;
+}
+
+.last{
+    font-size: 3.9em;
+    margin-top: -65px;
+    margin-left: 215px;
+}
+
+.first {
+    font-size: 5.9em;
+}
+
+h2{   
+    margin-top: -210px;
+    width: 230px;
+    font-size: 0.9em;
+    margin-bottom: 50px;
+    margin-left: 28px;
+}
+
+.about{
+    clear: both;
+    width: 90%;
+    margin-left: 23%;
+}
+
+.about-para{  
+    width: 500px;
+    margin-left: 1%;
+}
+
+.skillList li {
+    padding: 9% 5%;
+    width: 38px;
+    font-size: 0.6em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+  .skillList li i {
+   font-size: 3.6em;
+}
+    
+.skillList {
+    width: 600px;  
+}
+
+#skills {
+    clear: both;
+    margin-left: 18%;
+    margin-bottom: 15%;
+    margin-top: 10%; 
+}
+
+.subheadline {
+    margin-bottom: -32px;
+    font-size: 2.1em;
+}   
+  
+.project {
+    font-size: 5em;
+    margin-left: 25%;
+    width: 40%;
+    margin-bottom: 7%;
+}
+
+.sub {
+    margin-top: -24%;
+    margin-left: 270px;
+    margin-bottom: 30%;
+    font-size: 0.8em;
+    width: 400px;
+}
+    
+h4{
+    margin-top: -43px;
+    font-size: 2em;
+    margin-left: -11px;
+    
+}
+         
+}
+
+@media only screen and (min-width: 968px) and (max-width: 1024px)  {
+.layer {
+    width: 80%;
+    height: 770px;
+    margin-bottom: 9%;
+}    
+    
+.left {
+    clear: both;
+    width: 95%;
+}
+
+.imageStyle {
+    margin-left: 3%;
+}
+    
+.d{
+    font-size: 3.1em;
+    margin-bottom: -65px;
+    margin-left: 4.8px;
+}
+
+.last{
+    font-size: 3.9em;
+    margin-top: -65px;
+    margin-left: 215px;
+}
+
+.first {
+    font-size: 5.9em;
+}
+
+h2{   
+    margin-top: -210px;
+    width: 230px;
+    font-size: 0.9em;
+    margin-bottom: 50px;
+    margin-left: 28px;
+}
+
+.about{
+    clear: both;
+    width: 90%;
+    margin-left: 23%; 
+}
+
+.about-para{  
+    width: 500px;
+    margin-left: 1%;
+}
+
+.skillList li {
+    padding: 9% 5%;
+    width: 38px;
+    font-size: 0.6em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+.skillList li i {
+   font-size: 3.6em;
+}
+    
+.skillList {
+    width: 600px;  
+}
+
+#skills {
+    clear: both;
+    margin-left: 18%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+
+.subheadline {
+    margin-bottom: -32px;
+    font-size: 2.1em;
+}
+
+.project {
+    font-size: 5em;
+    margin-left: 27%;
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.sub {
+    margin-top: -21%;
+    margin-left: 270px;
+    margin-bottom: 30%;
+    font-size: 0.8em;
+    width: 400px;
+}
+    
+h4{
+    margin-top: -44px;
+    font-size: 2em;
+    margin-left: -11px;   
+}   
+        
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1284px)  {
+
+.layer {
+    width: 80%;
+}    
+    
+.imageStyle {
+    float: left;
+    margin-right: 2%;
+    width: 500px;
+    height: 290px;
+    margin-left: 3%;
+}
+    
+.left {
+    width: 30%;
+    float: left;     
+}
+
+.d{
+    font-size: 3.1em;
+    margin-bottom: -65px;
+    margin-left: 4.8px;
+}
+
+.last{
+    font-size: 3.9em;
+    margin-top: -65px;
+    margin-left: 215px;
+}
+
+.first {
+    font-size: 5.9em;
+}
+
+
+h2{   
+    margin-top: -210px;
+    width: 230px;
+    font-size: 0.9em;
+    margin-bottom: 50px;
+    margin-left: 28px;
+}
+
+.about{
+    clear: both;
+    width: 90%;
+    margin-left: 23%;
+}
+
+.about-para{  
+    width: 500px;
+    margin-left: 1%;
+}
+
+.skillList li {
+    padding: 9% 5%;
+    width: 38px;
+    font-size: 0.6em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+  .skillList li i {
+   font-size: 3.6em;
+}
+
+.skillList {
+    width: 600px;
+}
+
+#skills {
+    clear: both;
+    margin-left: 18%;
+    margin-bottom: 15%;
+    margin-top: 1%;
+}
+
+.subheadline {
+    margin-bottom: -32px;
+    font-size: 2.1em;
+}   
+  
+.project {
+    font-size: 5em;
+    margin-left: 30%;
+    width: 40%;
+    margin-bottom: 7%;
+}
+
+.sub {
+    margin-top: -24%;
+    margin-left: 270px;
+    margin-bottom: 30%;
+    font-size: 0.8em;
+    width: 400px;
+}
+    
+h4{
+    margin-top: -44px;
+    font-size: 2em;
+    margin-left: -13px;
+}
+        
+}
+
+@media only screen and (min-width: 1078px) and (max-width: 1284px)  {
+#skills {
+    margin-left: 30%;
+}
+
+.about {
+    margin-left: 30%;
+}
+    
+h4{
+    margin-top: -47px;
+    font-size: 2em;
+    margin-left: -13px;
+}
+    
+.sub {
+    margin-top: -17%;
+    margin-left: 340px;
+    margin-bottom: 0%;
+    font-size: 0.8em;
+}
+    
+.proj {
+    margin-top: -18%;
+    margin-left: 13px;
+    font-weight: 100;
+}  
+    
+#skills {
+    margin-top: 1%;
+}
+    
+}
+
+@media only screen and (min-width: 1285px) and (max-width: 1421px)  {
+.layer {
+    width: 80%;
+}    
+    
+.imageStyle {
+    float: left;
+    margin-right: 2%;
+    width: 500px;
+    height: 290px;
+    margin-left: 3%;
+}
+    
+.left {
+    width: 40%;
+    float: left;    
+}
+    
+h4{
+    margin-top: -48px;
+    font-size: 2em;
+    margin-left: -15px;  
+}
+          
+}
+
+@media only screen and (min-width: 1420px) and (max-width: 1582px)  {
+
+.layer {
+    width: 80%;
+}    
+    
+.imageStyle {
+    float: left;
+    margin-right: 5%;
+    margin-left: 1%;
+    width: 650px;
+    height: 390px;
+}
+    
+.left {
+    width: 30%;
+    float: left;
+}
+
+h4{
+    margin-top: -48px;
+    font-size: 2em;
+    margin-left: -15px;
+}   
+        
+}
+
+@media only screen and (min-width: 1285px) and (max-width: 1463px)  {
+.skillList li {
+    padding: 9% 5%;
+    width: 38px;
+    font-size: 0.6em;
+    margin-bottom: 0%;
+    /*border:1px solid #E8E8E8;*/
+    margin-right: 0%;
+}
+    
+  .skillList li i {
+   font-size: 3.6em;
+}
+
+.skillList { 
+    width: 520px; 
+}
+
+#skills {
+    margin-left: 3.2%;  
+}
+    
+.sub {
+    margin-top: 20%;  
+} 
+    
+.proj {
+    margin-top: -26%;
+}
+       
+}
+    
+@media only screen and (min-width: 1583px) and (max-width: 1690px)  {
+
+.layer {
+    width: 80%;
+}  
+    
+.left {
+    width: 33%;
+    float: left;
+}
+
+.imageStyle {
+    float: left;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+      
+h4{
+    margin-top: -50px;
+}
+           
+}
+
+/*---------------------------------------------*/
+
+
+
+
