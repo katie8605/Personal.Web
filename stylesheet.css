@@ -931,7 +931,7 @@ h4{
 
 @media only screen and (min-width: 600px) and (max-width: 709px)  {
 .front {
-    font-size: 8.4em;
+    font-size: 6.4em;
 }
   
 .d{
@@ -971,7 +971,7 @@ h2{
 }
 
 .skillList li {
-    padding: 9% 5%;
+    padding: 6% 5%;
     width: 38px;
     font-size: 0.6em;
     margin-bottom: 0%;
@@ -980,7 +980,7 @@ h2{
 }
     
 .skillList li i {
-   font-size: 3.6em;
+   font-size: 2.6em;
 }
 
 .skillList {
@@ -1045,7 +1045,7 @@ h4{
 
 @media only screen and (min-width: 710px) and (max-width: 877px)  {
 .front {
-    font-size: 11.4em;
+    font-size: 9.4em;
 }
   
 .d{
@@ -1085,7 +1085,7 @@ h2{
 }
 
 .skillList li {
-    padding: 9% 5%;
+    padding: 5% 5%;
     width: 38px;
     font-size: 0.6em;
     margin-bottom: 0%;
@@ -1094,7 +1094,7 @@ h2{
 }
     
 .skillList li i {
-   font-size: 3.6em;
+   font-size: 2.6em;
 }
     
 .skillList {
@@ -1178,7 +1178,7 @@ h4{
 }
     
 .front {
-    font-size: 12.8em;
+    font-size: 7.8em;
 }
   
 
@@ -1218,7 +1218,7 @@ h2{
 }
 
 .skillList li {
-    padding: 9% 5%;
+    padding: 7% 5%;
     width: 38px;
     font-size: 0.6em;
     margin-bottom: 0%;
@@ -1227,7 +1227,7 @@ h2{
 }
     
   .skillList li i {
-   font-size: 3.6em;
+   font-size: 2.6em;
 }
     
 .skillList {
@@ -1277,6 +1277,10 @@ h4{
     margin-bottom: 9%;
 }    
     
+    .front {
+        font-size: 8em;
+    }
+    
 .left {
     clear: both;
     width: 95%;
@@ -1322,7 +1326,7 @@ h2{
 }
 
 .skillList li {
-    padding: 9% 5%;
+    padding: 5% 3%;
     width: 38px;
     font-size: 0.6em;
     margin-bottom: 0%;
@@ -1331,7 +1335,7 @@ h2{
 }
     
 .skillList li i {
-   font-size: 3.6em;
+   font-size: 2.6em;
 }
     
 .skillList {
@@ -1377,7 +1381,7 @@ h4{
 @media only screen and (min-width: 1025px) and (max-width: 1284px)  {
 
 .layer {
-    width: 80%;
+    width: 79%;
 }    
     
 .imageStyle {
@@ -1430,8 +1434,8 @@ h2{
 }
 
 .skillList li {
-    padding: 9% 5%;
-    width: 38px;
+    padding: 4% 5%;
+    width: 30px;
     font-size: 0.6em;
     margin-bottom: 0%;
     /*border:1px solid #E8E8E8;*/
@@ -1439,7 +1443,7 @@ h2{
 }
     
   .skillList li i {
-   font-size: 3.6em;
+   font-size: 3.0em;
 }
 
 .skillList {
@@ -1459,7 +1463,7 @@ h2{
 }   
   
 .project {
-    font-size: 5em;
+    font-size: 4em;
     margin-left: 30%;
     width: 40%;
     margin-bottom: 7%;
@@ -1478,6 +1482,10 @@ h4{
     font-size: 2em;
     margin-left: -13px;
 }
+    
+    .front {
+        font-size: 10em;
+    }
         
 }
 
@@ -1512,6 +1520,10 @@ h4{
 #skills {
     margin-top: 1%;
 }
+    
+    .front {
+        font-size: 10em;
+    }
     
 }
 
@@ -1624,7 +1636,3 @@ h4{
 }
 
 /*---------------------------------------------*/
-
-
-
-
